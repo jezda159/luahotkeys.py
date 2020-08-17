@@ -1,0 +1,117 @@
+{
+    "filename": "v2-test",
+    "tooltips": "true",
+    "tooltips_layout": "true",
+    "tooltips_display_empty": "false",
+    "tooltips_display_code": "true",
+    "tooltips_time": "600",
+    "layouts": {
+        
+        "general_coding": {
+            "under0": {
+                "minus": {
+                    "_label": "Step back",
+                    "send": "^z"
+                },
+                "plus": {
+                    "_label": "Step forward",
+                    "send": "^y"
+                },
+                "0": {
+                    "_label": "F5 [reload]",
+                    "send": "{F5}"
+                },
+                "5": {
+                    "_label": "Commit [phpStorm]",
+                    "send": "^k"
+                },
+                "7": {
+                    "_label": "Copy",
+                    "send": "^c"
+                },
+                "8": {
+                    "_label": "Paste",
+                    "send": "^v"
+                },
+                "9": {
+                    "_label": "Save",
+                    "send": "^s"
+                }
+            },
+            "underA": {
+                "0": {
+                    "_label": "F12 [inspector]",
+                    "send": "{F12}"
+                },
+                "2": {
+                    "_label": "Serach",
+                    "send": "^f"
+                }
+            },
+            "underC": {
+                "minus": {
+                    "_label": "Delete line",
+                    "send_1": "{end}",
+                    "send_2": "+{home}",
+                    "send_3": "{delete}",
+                    "send_4": "{delete}"
+                },
+                "3": {
+                    "_label": "console.log(",
+                    "send": "console.log("
+                },
+                "X": {
+                    "_label": "Duplicate line",
+                    "send_1": "{end}",
+                    "send_2": "+{home}",
+                    "send_3": "^c",
+                    "send_4": "{right}",
+                    "send_41": "{enter}",
+                    "send_5": "^v",
+                    "send_6": "{up}"
+                },
+                "Z": {
+                    "_label": "Send to server",
+                    "send": "^+!x"
+                }
+            }
+        },
+        "google_docs": {
+            "under0": {
+                "0": {
+                    "_label": "Text",
+                    "send": "^!0"
+                },
+                "1": {
+                    "_label": "Nadpis 1",
+                    "send": "^!1"
+                },
+                "2": {
+                    "_label": "Nadpis 2",
+                    "send": "^!2"
+                },
+                "3": {
+                    "_label": "Nadpis 3",
+                    "send": "^!3"
+                },
+                "4": {
+                    "_label": "Tucne",
+                    "send": "^b"
+                },
+                "5": {
+                    "_label": "Podtrzene",
+                    "send": "^u"
+                },
+                "6": {
+                    "_label": "Kurziva",
+                    "send": "^i"
+                },
+                "9": {
+                    "_label": "Snimek",
+                    "send": "{PrintScreen}"
+                }
+            }
+        }
+
+    }
+}
